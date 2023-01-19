@@ -31,7 +31,7 @@ var objJSON = {
       },
     ],
   };
-  
+  var gif = document.getElementById("gif");
   function mostrarPersonajes() {
     //Toggle de Botones
     botonMostrar.style.display = "none";
@@ -50,10 +50,12 @@ var objJSON = {
   
     //Mostrar Lista
     templateVista.style.display = "block";
+
+    gif.style.display="none";
   }
   
   function ocultarPersonajes() {
-    var gif = document.getElementById("gif");
+    
     //Toggle de Botones
     botonMostrar.style.display = "block";
     botonOcultar.style.display = "none";
