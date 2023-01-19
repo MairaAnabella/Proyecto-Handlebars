@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,400;1,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #24692f;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+header{
+    height: 300px;
+    display: flex;
+    background-image: url(/image/banner2.webp);
+    background-position: center;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta{
+    width: 35%;
+    border: 5px inset #56cf6a;
+    background-color: #F5EDDC;
+    font-family:  'Roboto Condensed', sans-serif;
+    font-size: medium;  
+    color:#24692f ;
+    border-radius: 15px;
+    margin: 5px;
+    
+}
+#lista  {
+    display: flex;
+    justify-items: center;
+    
+}
+#datos{
+    margin: 10%;
+}
+
+
+#image{
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+    padding-right: 5%;
+
+}
+img{
+    border-radius: 15px;
+}
